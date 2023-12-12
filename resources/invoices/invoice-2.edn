@@ -1,0 +1,32 @@
+{:invoice/id    "i2"
+ :invoice/items [{:invoice-item/id          "ii6"
+                  :invoice-item/sku         "SKU 5"
+                  :taxable/taxes            [{:tax/id       "t4"
+                                              :tax/category :iva
+                                              :tax/rate     15}]
+                  :retentionable/retentions [{:retention/id       "r4"
+                                              :retention/category :ret_otros
+                                              :retention/rate     2}]}
+                 {:invoice-item/id          "ii7"
+                  :invoice-item/sku         "SKU 6"
+                  :taxable/taxes            [{:tax/id       "t5"
+                                              :tax/category :iva
+                                              :tax/rate     19}]
+                  :retentionable/retentions [{:retention/id       "r5"
+                                              :retention/category :ret_fuente
+                                              :retention/rate     3}]}
+                 {:invoice-item/id          "ii8"
+                  :invoice-item/sku         "SKU 7"
+                  :taxable/taxes            [{:tax/id       "t6"
+                                              :tax/category :iva
+                                              :tax/rate     18}]}
+                 {:invoice-item/id          "ii9"
+                  :invoice-item/sku         "SKU 8"
+                  :taxable/taxes            [{:tax/id       "t7"
+                                              :tax/category :iva
+                                              :tax/rate     19}]}
+                 {:invoice-item/id          "ii10"
+                  :invoice-item/sku         "SKU 9"
+                  :retentionable/retentions [{:retention/id       "r6"
+                                              :retention/category :ret_fuente
+                                              :retention/rate     1}]}]}
